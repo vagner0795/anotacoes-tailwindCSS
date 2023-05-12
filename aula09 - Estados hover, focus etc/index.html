@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Estados: Hover, Focus, etc..</title>
+</head>
+
+<body>
+    <h3 class="text-center p-5">
+        <a href="../index.html" class="link">Voltar ao inicio</a>
+    </h3>
+
+    <div class="space-y-3">
+        <h1 class="text-3xl text-center font-bold">Estados: Hover, Focus, Active</h1>
+        <p class="text-center text-lg">Estados são ações executadas quando o elemento sofre alguma ação</p>
+
+
+
+
+    </div>
+    <hr>
+    <br>
+    <br>
+
+    <p class="text-center text-lg">Hover - executa uma ação quando o mouse passa sobre o elemento</p>
+    <hr>
+    <br>
+    <div class=" mx-auto p-5 border-0 bg-blue-500 space-y-3">
+        <div class="p-3 h-20 bg-yellow-500 hover:bg-red-400 rounded ">div 1</div>
+        <div class="p-3 h-20 bg-yellow-500 hover:bg-gray-400 rounded ">div 1</div>
+        <div class="p-3 h-20 bg-yellow-500 hover:bg-sky-400 rounded ">div 1</div>
+    </div>
+    <hr>
+    <br>
+    <br>
+
+    <p class="text-center text-lg">Hover group - executa uma ação quando o mouse passa sobre o elemento</p>
+    <hr>
+    <br>
+    <div class="group mx-auto p-5 border-0 bg-blue-500 space-y-3">
+        <div class="p-3 h-40 bg-yellow-500 group-hover:text-white group-hover:text-xl rounded">
+            <h1>title</h1>
+            <h3>subtitle</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, facilis?</p>
+        </div>
+    </div>
+    <hr>
+    <br>
+    <br>
+
+    <p class="text-center text-lg">Focus - executa uma ação quando o elemento é clicado</p>
+    <hr>
+    <br>
+    <div class=" mx-auto p-5 border-0 bg-blue-500 space-x-5 flex justify-center  ">
+
+        <button class=" p-3 bg-gray-300 focus:ring focus:outline-none focus:ring-pink-600 rounded">Clique</button>
+        <button class=" p-3 bg-gray-300 focus:ring focus:outline-none focus:ring-blue-900 rounded">Clique</button>
+        <button class=" p-3 bg-gray-300 focus:ring focus:outline-none focus:ring-red-600 rounded">Clique</button>
+        <input type="text" class="bg-gray-500 text-lg py-2 focus:text-gray-200 focus:text-xl focus:outline-none focus:ring focus:ring-red-800" >
+    </div>
+    <hr>
+    <br>
+    <br>
+
+    <p class="text-center text-lg">Active - executa uma ação quando o elemento é clicado</p>
+    <hr>
+    <br>
+    <div class=" mx-auto p-5 border-0 bg-blue-500 space-x-5 flex justify-center  ">
+
+        <button class=" p-3 bg-gray-300 focus:ring focus:outline-none focus:ring-pink-600 rounded">Clique</button>
+        <button class=" p-3 bg-gray-300 focus:ring focus:outline-none focus:ring-blue-900 rounded">Clique</button>
+        <button class=" p-3 bg-gray-300 focus:ring focus:outline-none focus:ring-red-600 rounded">Clique</button>
+    </div>
+    <hr>
+    <br>
+    <br>
+
+
+
+
+
+</body>
+
+</html>

@@ -5,8 +5,13 @@ a{
     font-weight: 600;
 }
 
-div{
+
+.box{
+    width: 50%;
     display: flex;
     justify-content: center;
+    align-self: center;
     gap: 15px;
+    flex-wrap: wrap;
+
 }
